@@ -8,6 +8,7 @@ public class UE4ToolsEditorTarget : TargetRules
 	public UE4ToolsEditorTarget(TargetInfo Target) : base(Target)
 	{
 		Type = TargetType.Editor;
+		DefaultBuildSettings = BuildSettingsVersion.V2;
 		ExtraModuleNames.Add("UE4Tools");
 	}
 }
